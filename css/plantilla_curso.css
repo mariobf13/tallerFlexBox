@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+	/*Aqui se establecen margenes en 0 y los bordes en 0*/
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	/*se establece el color de fondo y la fuente para todo el cuerpo de la pagina*/
+	background-color: white;
+	font-family: "Roboto", sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.contendor-iconos >i{
+    font-size: 40px;
+} 
+
+.main-superior{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    gap: 40px;  
+}
+.main-superior-izquierdo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 70%;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+.main-superior-izquierdo > p, h3{
+    text-align: justify;
+}
+.banner{
+	padding: 10px;
+	width: 100%;
+	min-height: 300px;
+	background-size: cover;
+	background-position: center top;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+.main-inferior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.main-inferior-izquierdo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+}
+
+.main-inferior-contenido{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    text-align: start;
+}
+
+.main-inferior-otros{
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+.otros-cursos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.curso-img{
+    width: 20%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-inferior-derecho{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    width: 35%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+
+
